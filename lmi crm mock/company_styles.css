@@ -1,0 +1,47 @@
+.company_info_container{
+    width: 100%;
+    height: auto;
+    margin-top: 75px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: inline-block;
+}
+
+.company_left_spacer, .company_right_spacer{
+    height: inherit;
+    min-height: 100px;
+    width: 10%;
+    max-width: 250px;
+    min-width: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.company_left_spacer{
+    float: left;
+}
+
+.company_right_spacer{
+    float: right;
+}
+
+.company_info{
+    width: 79%;
+    border: 1px solid;
+    float: left;
+}
+
+.company_members_view{
+    width: 79%;
+    float: left;
+    display: block;
+}
+
+.company_members_table{
+    width: 79%;
+    margin-top: 25px;
+}
+
+.table_titles:{
+    width: 79%;
+}

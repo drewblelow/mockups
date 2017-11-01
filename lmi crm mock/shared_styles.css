@@ -1,0 +1,53 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+.table_link{
+    text-decoration: none;
+    color: #000000;
+}
+
+.shared_topbar{
+    margin: 0px;
+    height: 70px;
+    display: block;
+    background-color: #0c1768;
+}
+
+.shared_topbar_left{
+    float: left;
+    display: flex;
+}
+
+.shared_topbar_right{
+    position: relative;
+    float: right;
+    margin-right: 15px;
+}
+
+.link_anchor, .username_anchor{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2em;
+    line-height: 2;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 100%;
+}
+
+.shared_topbar_tab_not_focused, .shared_topbar_tab_focused, .shared_topbar_right{
+    height: 70px;
+}
+
+.shared_topbar_tab_focused, .shared_topbar_tab_not_focused:hover, .shared_topbar_right:hover{
+    background-color: #175ac6;
+}
